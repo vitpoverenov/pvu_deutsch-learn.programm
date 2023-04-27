@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+  font-family: sans-serif;
+  background: rgba(147, 129, 129, 0.408);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+p {
+  padding: 5px;
+}
+
+input {
+  padding: 12px;
+}
