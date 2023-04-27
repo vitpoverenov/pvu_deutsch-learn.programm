@@ -34,6 +34,11 @@ function checkTest() {
   if (a6 === "8") {
     result++;
   }
+  
+  let a11 = document.getElementById("q11").value;
+  if (a11 === "2002") {
+    result++;
+  }
 
-  alert("Правильных ответов:" +result);
+  alert("Правильных ответов:" + result);
 }
