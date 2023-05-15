@@ -119,3 +119,58 @@ function checkTest2() {
   alert("Правильных ответов:" + result);
 }
 
+function checkTest3() {
+  let result = 0;
+  
+  let a21 = document.getElementById("q21").value;
+  if (a21 === "2002") {
+    result++;
+  }
+
+  let a22 = document.getElementById("q22").value;
+  if (a22 === "2002") {
+    result++;
+  }
+
+  let a23 = document.getElementById("q23").value;
+  if (a23 === "2002") {
+    result++;
+  }
+
+  let a24 = document.getElementById("q24").value;
+  if (a24 === "2002") {
+    result++;
+  }
+
+  let a25 = document.getElementById("q25").value;
+  if (a25 === "2002") {
+    result++;
+  }
+
+  let a26 = document.getElementById("q26").value;
+  if (a26 === "2002") {
+    result++;
+  }
+
+  let a27 = document.getElementById("q27").value;
+  if (a27 === "2002") {
+    result++;
+  }
+
+  let a28 = document.getElementById("q28").value;
+  if (a28 === "2002") {
+    result++;
+  }
+
+  let a29 = document.getElementById("q29").value;
+  if (a11 === "2002") {
+    result++;
+  }
+
+  let a30 = document.getElementById("q30").value;
+  if (a30 === "2002") {
+    result++;
+  }
+
+  alert("Правильных ответов:" + result);
+} 
