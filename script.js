@@ -5,7 +5,7 @@ let button2 = document.getElementById("finish-2")
 button2.addEventListener("click", checkTest2);
 
 let button3 = document.getElementById("finish-3")
-button2.addEventListener("click", checkTest3);
+button3.addEventListener("click", checkTest3);
 
 function checkTest1() {
   let result = 0;
@@ -67,27 +67,27 @@ function checkTest2() {
   let result = 0;
   
   let a11 = document.getElementById("q11").value;
-  if (a11 === "2002") {
+  if (a11 === "20ФЫАФА02") {
     result++;
   }
 
   let a12 = document.getElementById("q12").value;
-  if (a12 === "2002") {
+  if (a12 === "200ФЫАА2") {
     result++;
   }
 
   let a13 = document.getElementById("q13").value;
-  if (a13 === "2002") {
+  if (a13 === "200ФЫАА2") {
     result++;
   }
 
   let a14 = document.getElementById("q14").value;
-  if (a14 === "2002") {
+  if (a14 === "200ФЫАФ2") {
     result++;
   }
 
   let a15 = document.getElementById("q15").value;
-  if (a15 === "2002") {
+  if (a15 === "20АФЫАФ02") {
     result++;
   }
 
@@ -121,56 +121,56 @@ function checkTest2() {
 
 function checkTest3() {
   let result = 0;
-  
+
   let a21 = document.getElementById("q21").value;
-  if (a21 === "2002") {
+  if (a21 === "das") {
     result++;
   }
 
   let a22 = document.getElementById("q22").value;
-  if (a22 === "2002") {
+  if (a22 === "23") {
     result++;
   }
 
   let a23 = document.getElementById("q23").value;
-  if (a23 === "2002") {
+  if (a23 === "df") {
     result++;
   }
 
   let a24 = document.getElementById("q24").value;
-  if (a24 === "2002") {
+  if (a24 === "qw") {
     result++;
   }
 
   let a25 = document.getElementById("q25").value;
-  if (a25 === "2002") {
+  if (a25 === "3") {
     result++;
   }
 
   let a26 = document.getElementById("q26").value;
-  if (a26 === "2002") {
+  if (a26 === "2") {
     result++;
   }
 
   let a27 = document.getElementById("q27").value;
-  if (a27 === "2002") {
+  if (a27 === "sdf") {
     result++;
   }
 
   let a28 = document.getElementById("q28").value;
-  if (a28 === "2002") {
+  if (a28 === "ty") {
     result++;
   }
 
   let a29 = document.getElementById("q29").value;
-  if (a11 === "2002") {
+  if (a29 === "yt") {
     result++;
   }
 
   let a30 = document.getElementById("q30").value;
-  if (a30 === "2002") {
+  if (a30 === "34") {
     result++;
   }
 
-  alert("Правильных ответов:" + result);
-} 
+  alert("Правильных ответов: " + result);
+}
